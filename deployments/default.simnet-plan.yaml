@@ -50,9 +50,9 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
-            contract-name: data-integrity
+            contract-name: compatibility-verification
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/data-integrity.clar
+            path: contracts/compatibility-verification.clar
             clarity-version: 2
         - emulated-contract-publish:
             contract-name: identity-migration

@@ -5,8 +5,8 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.data-integrity]
-path = 'contracts/data-integrity.clar'
+[contracts.compatibility-verification]
+path = 'contracts/compatibility-verification.clar'
 clarity_version = 2
 epoch = 2.5
 
